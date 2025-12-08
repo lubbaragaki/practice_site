@@ -5,7 +5,6 @@
 	source => './src/*',
 	target => '~/Server/depl_server/php/public',
 	commands => (
-		'cd ~/Server/depl_server',
-		'sudo docker compose up',
+		'cd ~/Server/depl_server && sudo docker compose up',
 	),
 };
